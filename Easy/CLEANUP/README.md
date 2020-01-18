@@ -1,4 +1,4 @@
-
+﻿
 
 # [Cleaning Up](https://www.codechef.com/problems/CLEANUP)
 Problem Code: **CLEANUP**
@@ -8,10 +8,10 @@ After a long and successful day of preparing food for the banquet, it is time to
 Most of the cooks have already left and only the Chef and his assistant are left to clean up. Thankfully, some of the cooks took care of some of the jobs before they left so only a subset of the n jobs remain. The Chef and his assistant divide up the remaining jobs in the following manner. The Chef takes the unfinished job with the least index, the assistant takes the unfinished job with the second least index, the Chef takes the unfinished job with the third least index, etc. That is, if the unfinished jobs were listed in increasing order of their index then the Chef would take every other one starting with the first job on the list and the assistant would take every other one starting with the second job on in the list.
 
 The cooks logged which jobs they finished before they left. Unfortunately, these jobs were not recorded in any particular order. Given an unsorted list of finished jobs, you are to determine which jobs the Chef must complete and which jobs his assistant must complete before closing the kitchen for the evening.
-Input
+## Input
 
 The first line contains a single integer T ≤ 50 indicating the number of test cases to follow. Each test case consists of two lines. The first line contains two numbers n,m satisfying 0 ≤ m ≤ n ≤ 1000. Here, n is the total number of jobs that must be completed before closing and m is the number of jobs that have already been completed. The second line contains a list of m distinct integers between 1 and n. These are the indices of the jobs that have already been completed. Consecutive integers are separated by a single space.
-Output
+## Output
 
 The output for each test case consists of two lines. The first line is a list of the indices of the jobs assigned to the Chef. The second line is a list of the indices of the jobs assigned to his assistant. Both lists must appear in increasing order of indices and consecutive integers should be separated by a single space. If either the Chef or the assistant is not assigned any jobs, then their corresponding line should be blank.
 ## Usage
