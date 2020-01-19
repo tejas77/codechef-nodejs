@@ -14,8 +14,8 @@ Note that same pair of {word, bool} can appear multiple times in input. The trai
 ## Input
 
 - First line will contain ***T*** , number of test cases. Then the test cases follow.
--   The first line of each test case contains a single integer ***N***
--   ***N***  lines follow. For each valid ***i***, the ***i***-th of these lines contains a string *w~i~*, followed by a space and an integer(boolean) *s~i~*, denoting the ***i***-th item.
+-   The first line of each test case contains a single integer ***N***.
+-   ***N***  lines follow. For each valid ***i***, the ***i***-th of these lines contains a string *wi*, followed by a space and an integer(boolean) *si*, denoting the ***i***-th item.
 ## Output
 
 For each test case, output an integer corresponding to the maximum number of items that can be included in the training set in a single line.
