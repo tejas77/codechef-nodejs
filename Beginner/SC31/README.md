@@ -1,5 +1,5 @@
 
-# [Weapon Value](https://www.codechef.com/problems/WALKFAST)
+# [Weapon Value](https://www.codechef.com/problems/SC31)
 Problem Code: **SC31**
 
 
