@@ -6,11 +6,14 @@ Rahul and Rashi are off to the wedding of a close relative. This time they have 
 
 The entire coach could be viewed as an arrangement of consecutive blocks of size 8.
 
-Berth Number  |  Compartment
-            --|--
+**Berth Number  |  Compartment**
+
 1 -  8        |  1
+
 9 - 16        |  2
+
 17 - 24       |  3
+
 ... and so on
 
 Each of these size-8 blocks are further arranged as:
@@ -28,9 +31,11 @@ Here **LB** denotes lower berth, **MB** middle berth and **UB** upper berth.
 The following berths are called **Train-Partners**:
 
 3UB   |  6UB
-    --|--
+
 2MB   |  5MB
+
 1LB   |  4LB
+
 7SL   |  8SU
 
 and the pattern is repeated for every set of 8 berths.
