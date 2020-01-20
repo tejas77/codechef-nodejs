@@ -12,7 +12,7 @@ Please help Chef find the total loss incurred due to this sale, if all the recip
 
 ## Input
 
-- The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+- The first line of the input contains a single integer **_T_** denoting the number of test cases. The description of **_T_** test cases follows.
 - The first line of each test case contains a single integer **_N_** denoting the number of recipe types.
 - **_N_** lines follow. The **_i_**-th of these lines contains three space-separated integers **_price_i_**, **_quantity_i_** and **_discount_i_** describing the **_i_**-th recipe type.
 
