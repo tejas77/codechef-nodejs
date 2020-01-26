@@ -2,7 +2,7 @@
 # [Area OR Perimeter](https://www.codechef.com/problems/AREAPERI)
 Problem Code: **AREAPERI**
 
-All submissions for this problem are available.Write a program to obtain length **_( L )_** and breadth **_( B )_** of a rectangle and check whether its area is greater or perimeter is greater or both are equal.
+Write a program to obtain length **_( L )_** and breadth **_( B )_** of a rectangle and check whether its area is greater or perimeter is greater or both are equal.
 
 ## Input
 
