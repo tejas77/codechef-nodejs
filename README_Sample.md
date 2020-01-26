@@ -7,7 +7,6 @@ Problem Code: **BRKBKS**
 ## Input
 
 - The first line of the input contains a single integer **_T_** denoting the number of test cases. The description of **_T_** test cases follows.
-- 
 
 ## Output
 
