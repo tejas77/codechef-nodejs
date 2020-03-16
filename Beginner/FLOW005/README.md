@@ -7,7 +7,7 @@ If the sum of Rs. **N** is input, write a program to computer smallest number of
 
 ## Input
 
--  The first line contains an integer **T**, total number of testcases. Then follow **T** lines, each line contains an integer **N**.
+The first line contains an integer **T**, total number of testcases. Then follow **T** lines, each line contains an integer **N**.
 
 ## Output
 

@@ -6,7 +6,7 @@ You're given an integer **N**. Write a program to calculate the sum of all the d
 
 ## Input
 
--  The first line contains an integer **T**, total number of testcases. Then follow **T** lines, each line contains an integer **N**.
+The first line contains an integer **T**, total number of testcases. Then follow **T** lines, each line contains an integer **N**.
 
 ## Output
 
