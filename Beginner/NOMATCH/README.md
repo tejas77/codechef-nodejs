@@ -1,6 +1,6 @@
 
-# [Maximise the Sum](https://www.codechef.com/problems/BRKBKS)
-Problem Code: **BRKBKS**
+# [Maximise the Sum](https://www.codechef.com/problems/NOMATCH)
+Problem Code: **NOMATCH**
 
 You are given an array with **_N_** integers: **_A[1], A[2], …, A[N]_** (where **_N_** is even). You are allowed to permute the elements however you want. Say, after permuting the elements, you end up with the array **_A′[1],A′[2],…,A′[N]_**. Your goal is to maximize the following sum:
 
