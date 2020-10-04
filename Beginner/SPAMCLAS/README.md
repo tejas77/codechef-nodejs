@@ -1,6 +1,6 @@
 
-# [Spam Classification Using Neural Net](https://www.codechef.com/problems/BRKBKS)
-Problem Code: **BRKBKS**
+# [Spam Classification Using Neural Net](https://www.codechef.com/problems/SPAMCLAS)
+Problem Code: **SPAMCLAS**
 
 Neural nets are extremely popular in the Machine Learning domain. A neural net is composed of multiple layers. It has an input layer in which you input the parameter **x** (the input of the program). The input is then passed through multiple hidden layers, finally getting one output at the final layer, called the output layer.
 
