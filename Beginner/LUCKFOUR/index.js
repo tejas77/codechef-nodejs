@@ -7,11 +7,12 @@ process.stdin.on('data', function (chunk) {
 });
 
 process.stdin.on('end', function () {
-    arr = arr.split('\n');
-    var t = arr.shift();
-    for (var i = 0; i < t; i++) {
-      var number = arr[i].split('4');
-
-      console.log(number.length - 1);
-    }
+    arr = arr.trim().split('\n');
+    arr.shift();
+    arr = arr.map(count4s);
+    process.stdout.write(arr.join("\n"));
 });
+
+function count4s(numb) {
+  return numb.split('').reduce((a, b) => a + (b == "4" ? 1 : 0), 0);
+}
