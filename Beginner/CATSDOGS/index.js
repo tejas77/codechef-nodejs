@@ -10,21 +10,15 @@ process.stdin.on('end', function () {
     arr = arr.split('\n');
     var t = arr.shift();
     loop: for (var i = 0; i < t; i++) {
-      const cdl = arr.shift().split(' ').map(Number);
-      var c = cdl[0];
-      var d = cdl[1];
-      var l = cdl[2];
-      var min;
-      if(c > 2*d){
-          min =  4*(c - d);
-      } else{
-          min = d*4;
-      }
-
-      if(l <= 4*(c+d) && l >= min && l%4 === 0){
-          console.log("yes");
-      }else{
-          console.log("no");
+      const [c,d,l] = arr[i].trim().split(' ').map(Number);
+      if (l % 4 !== 0) {
+        console.log('no');
+      } else {
+        if (c <= d * 2) {
+          console.log((d * 4) <= l && l <= 4 * (c + d) ? 'yes' : 'no');
+        } else {
+          console.log((c - (d * 2)) * 4 + (d * 4) <= l && l <= 4 * (c + d) ? 'yes' : 'no');
+        }
       }
     }
 });
